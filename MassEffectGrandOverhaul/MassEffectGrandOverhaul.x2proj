@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>e0fcfe84-ee9a-4d0d-a425-7b3a5bdb8327</Guid>
+    <Name>MassEffectGrandOverhaul</Name>
+    <Description>Description of My XCOM 2 Mod.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>MassEffectGrandOverhaul</AssemblyName>
+    <RootNamespace>MassEffectGrandOverhaul</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\MassEffectGrandOverhaul\" />
+    <Folder Include="Src\MassEffectGrandOverhaul\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\DefaultAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\DefaultEncounterLists.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\DefaultEncounters.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\DefaultGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\DefaultGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\DefaultGameData_SoldierSkills.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\DefaultGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2DownloadableContentInfo_MassEffectGrandOverhaul.uc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
