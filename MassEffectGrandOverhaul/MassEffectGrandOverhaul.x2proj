@@ -10,31 +10,234 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Config\" />
+    <Folder Include="Content\Armor" />
+    <Folder Include="Content\Characters" />
+    <Folder Include="Content\Weapons" />
+    <Folder Include="Content\Weapons\Assault Rifles" />
+    <Folder Include="Content\Weapons\Grenadier and Spark weapons" />
+    <Folder Include="Content\Weapons\Other" />
+    <Folder Include="Content\Weapons\Shotguns" />
+    <Folder Include="Content\Weapons\SMG" />
+    <Folder Include="Content\Weapons\Snipers" />
+    <Folder Include="Content\Weapons\Pistols" />
     <Folder Include="Localization\" />
+    <Folder Include="Content" />
     <Folder Include="Src\" />
     <Folder Include="Src\MassEffectGrandOverhaul\" />
     <Folder Include="Src\MassEffectGrandOverhaul\Classes\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Config\DefaultAI.ini">
+    <Content Include="Config\XComNewWeapons.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\DefaultEncounterLists.ini">
+    <Content Include="Config\XComReplacedWeapons.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\DefaultEncounters.ini">
+    <Content Include="Config\XComWeaponSkinReplacer.ini">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\DefaultGameData.ini">
+    <Content Include="Content\Armor\CAT6Cosmetics.upk">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\DefaultGameData_CharacterStats.ini">
+    <Content Include="Content\Armor\Cerberus_Assault_Assets.upk">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\DefaultGameData_SoldierSkills.ini">
+    <Content Include="Content\Armor\Eva_Core_Assets.upk">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Config\DefaultGameData_WeaponData.ini">
+    <Content Include="Content\Armor\Kai_Leng_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\AdasRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\ArgusRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\ChakramRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\CollectorRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\Geth_Pulse_Rifle.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\Harrier_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\M25Hornet_AR_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\M76_Revenant_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\M8Avenger.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\N7Valkyrie_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\ParticleRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\StrikerRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\VindicatorRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\WP_M96Mattock_CV.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Grenadier and Spark weapons\GethSpitfire_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Grenadier and Spark weapons\N7Typhoon_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Grenadier and Spark weapons\SaberRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Grenadier and Spark weapons\WP_M22Cyclone_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Other\CAT6Xcom_Shield_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Other\GuardianShield_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Other\PhantomSword_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Other\RepulsorMod.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\AcolytePistol_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\ArcPistol_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\CarnifexPistol_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\ExecutionerPistol_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\M11Pistol_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\M358Talon_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\N7Eagle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\PhalanxPistol_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\ScorpionPistol_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Pistols\WP_M3Predator_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\DiscipleShotgun_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\GethShotgun_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\GraalShotgun_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\M22Eviscerator_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\M300_Claymore_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\N7Crusader_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\N7Piranha_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\RaiderShotgun_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\ReegarShotgun_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\ScimitarShotgun_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\VenomShotgun_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Shotguns\WP_M23Katana_CV.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\SMG\CollectorSMG_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\SMG\GethSMG_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\SMG\HurricaneSMG_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\SMG\LocustSMG_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\SMG\M25Hornet_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\SMG\PunisherSMG_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\SMG\ShurikenSMG_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\SMG\TempestSMG_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\BlackWidowSniper_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\CollectorSniper_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\IncisorSniper_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\IndraSniper_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\JavelinSniper_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\KishockSniper_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\KryseaSniper_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\M13Raptor_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\M98_Widow_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\MantisSniper_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\N7Valiant_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Snipers\WP_M97Viper_CV.upk">
       <SubType>Content</SubType>
     </Content>
     <Content Include="ReadMe.txt" />
@@ -44,6 +247,12 @@
     <Content Include="Config\XComGame.ini" />
     <Content Include="Localization\XComGame.int" />
     <Content Include="Src\MassEffectGrandOverhaul\Classes\X2DownloadableContentInfo_MassEffectGrandOverhaul.uc" />
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_NewWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ReplacedWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
 </Project>
