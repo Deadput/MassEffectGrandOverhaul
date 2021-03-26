@@ -10,6 +10,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="Config\" />
+    <Folder Include="Config\Assault Rifles" />
+    <Folder Include="Config\Cannons" />
+    <Folder Include="Config\OtherModCompatibility" />
+    <Folder Include="Config\Shotguns" />
+    <Folder Include="Config\Other weapons like Melee" />
+    <Folder Include="Config\Vektor Rifle and Bullpup" />
+    <Folder Include="Config\Smg aka Autopistol" />
+    <Folder Include="Config\Pistols" />
+    <Folder Include="Config\Snipers" />
     <Folder Include="Content\Armor" />
     <Folder Include="Content\Characters" />
     <Folder Include="Content\Weapons" />
@@ -22,15 +31,163 @@
     <Folder Include="Content\Weapons\Pistols" />
     <Folder Include="Localization\" />
     <Folder Include="Content" />
+    <Folder Include="Localization\New Weapons" />
     <Folder Include="Src\" />
     <Folder Include="Src\MassEffectGrandOverhaul\" />
     <Folder Include="Src\MassEffectGrandOverhaul\Classes\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Config\Assault Rifles\XComAdasRifle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Assault Rifles\XComCollectorRifle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Assault Rifles\XComGethPulseRIfle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Assault Rifles\XComM25HornetAR.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Assault Rifles\XComM96Mattock.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Assault Rifles\XComN7Valkyrie.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Assault Rifles\XComPheastonRifle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Cannons\XComGethSpitfire.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Cannons\XComN7Typhoon.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Cannons\XComParticleRifle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Cannons\XComSaberRifle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Cannons\XComStrikerRifle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Other weapons like Melee\XComCat6Shield.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\OtherModCompatibility\XComClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\OtherModCompatibility\XComWOTC_LW2_Plating.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Pistols\XComAcolytePistol.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Pistols\XComArcPistol.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Pistols\XComCarnifexPistol.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Pistols\XComExecutionerPistol.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Pistols\XComM358Talon.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Pistols\XComN7Eagle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Pistols\XComScorpionPistol.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Shotguns\XComDiscipleShotgun.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Shotguns\XComGethShotgun.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Shotguns\XComGraalShotgun.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Shotguns\XComN7Crusader.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Shotguns\XComRaiderShotgun.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Shotguns\XComReegarShotgun.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Shotguns\XComScimitarShotgun.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Shotguns\XComVenomShotgun.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Smg aka Autopistol\XComGethSMG.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Smg aka Autopistol\XComHurricaneSMG.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Smg aka Autopistol\XComLocustSMG.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Smg aka Autopistol\XComPunisherSMG.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Smg aka Autopistol\XComTempestSMG.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Snipers\XComCollectorSniper.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Snipers\XComIncisorSniper.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Snipers\XComJavelinSniper.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Snipers\XComM13Raptor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Snipers\XComM98Widow.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Snipers\XComN7Valiant.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Vektor Rifle and Bullpup\XComArgusRifle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Vektor Rifle and Bullpup\XComChakramRifle.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Vektor Rifle and Bullpup\XComCollectorSMG.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Vektor Rifle and Bullpup\XComIndraVektor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Vektor Rifle and Bullpup\XComKryseaVektor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\Vektor Rifle and Bullpup\XComN7Piranha.ini">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Config\XComNewWeapons.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComReplacedWeapons.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComTemplateEditor.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComUtilityItem.ini">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Config\XComWeaponSkinReplacer.ini">
@@ -66,6 +223,9 @@
     <Content Include="Content\Weapons\Assault Rifles\Harrier_Assets.upk">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Content\Weapons\Assault Rifles\LancerRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Content\Weapons\Assault Rifles\M25Hornet_AR_Assets.upk">
       <SubType>Content</SubType>
     </Content>
@@ -79,6 +239,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Content\Weapons\Assault Rifles\ParticleRifle_Assets.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Assault Rifles\PheastonRifle_Assets.upk">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Content\Weapons\Assault Rifles\StrikerRifle_Assets.upk">
@@ -108,10 +271,19 @@
     <Content Include="Content\Weapons\Other\GuardianShield_Assets.upk">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Content\Weapons\Other\LWGauntletWOTC.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Other\MeleeWeaponsME.upk">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Content\Weapons\Other\PhantomSword_Assets.upk">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Content\Weapons\Other\RepulsorMod.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Weapons\Other\UILibrary_LWSecondariesWOTC.upk">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Content\Weapons\Pistols\AcolytePistol_Assets.upk">
@@ -240,17 +412,173 @@
     <Content Include="Content\Weapons\Snipers\WP_M97Viper_CV.upk">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Localization\New Weapons\XComGame.int">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ReadMe.txt" />
     <Content Include="ModPreview.jpg" />
     <Content Include="Config\XComEditor.ini" />
     <Content Include="Config\XComEngine.ini" />
     <Content Include="Config\XComGame.ini" />
     <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Ability_GWML_Modifiers.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Ability_VestAbilities.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\MassEffectGrandOverhaul\Classes\X2DownloadableContentInfo_MassEffectGrandOverhaul.uc" />
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Effect_AutoMendShield.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_AcolytePistol.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_AdasRifle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ArcPistol.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ArgusRifle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_CarnifexPistol.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_Cat6Shield.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ChakramRifle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_CollectorRifle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_CollectorSMG.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_CollectorSniper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_DiscipleShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ExecutionerPistol.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_GethPulseRIfle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_GethShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_GethSMG.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_GethSpitfire.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_GraalShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_GuardianShield.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_GWML_Weapon.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_HurricaneSMG.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_IncisorSniper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_IndraVektor.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_JavelinSniper.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_KryseaVektor.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_LocustSMG.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_M13Raptor.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_M25Hornet_AR.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_M358Talon.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_M96Mattock.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_M98Widow.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_N7Crusader.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_N7Eagle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_N7Piranha.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_N7Typhoon.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_N7Valiant.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_N7Valkyrie.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_NewWeapons.uc">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ParticleRifle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_PheastonRifle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_PunisherSMG.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_RaiderShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ReegarShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ReplacedWeapons.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_SaberRifle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ScimitarShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_ScorpionPistol.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_StrikerRifle.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_TempestSMG.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_VenomShotgun.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\MassEffectGrandOverhaul\Classes\X2Item_VindicatorRifle.uc">
       <SubType>Content</SubType>
     </Content>
   </ItemGroup>
